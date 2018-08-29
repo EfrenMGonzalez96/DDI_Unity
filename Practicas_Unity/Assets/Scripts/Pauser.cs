@@ -5,9 +5,15 @@ using UnityEngine.SceneManagement;
 public class Pauser : MonoBehaviour {
 	private bool paused = false;
     public GameObject pausePanel;
-	
-	// Update is called once per frame
-	void Update () {
+   // public AudioSource audioSource;
+    public GameObject audioSource;
+    bool soundToggle = true;
+
+
+
+    // Update is called once per frame
+   
+    void Update () {
 		if(Input.GetKeyUp(KeyCode.P))
 		{
 			paused = !paused;
@@ -18,7 +24,8 @@ public class Pauser : MonoBehaviour {
 			Time.timeScale = 0;
 		else
 			Time.timeScale = 1;
-	}
+        
+    }
     public void ContinueGame()
     {
         Debug.Log("Continuar");
@@ -33,6 +40,15 @@ public class Pauser : MonoBehaviour {
     }
     public void MuteMusic()
     {
+        soundToggle = !soundToggle;
+        if (soundToggle)
+        {
+            audioSource.SetActive(true);          
+        }
+        else
+        {
+            audioSource.SetActive(false);          
+        }
         Debug.Log("Mute");
     }
 }

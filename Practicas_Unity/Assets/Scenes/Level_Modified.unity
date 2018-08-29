@@ -768,6 +768,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pausePanel: {fileID: 852641815}
+  audioSource: {fileID: 983741512}
 --- !u!4 &644203108
 Transform:
   m_ObjectHideFlags: 0
