@@ -34,18 +34,17 @@ public class Pauser : MonoBehaviour {
     }
     public void ResetGame()
     {
-        if (Input.GetKeyUp(KeyCode.R))
-        {
+      
+        
             Debug.Log("Reset");
-            SceneManager.LoadScene(0);
-        }
+            SceneManager.LoadScene(1);
+     
       
 
     }
     public void MuteMusic()
     {
-        if (Input.GetKeyUp(KeyCode.M))
-        {
+               
             soundToggle = !soundToggle;
             if (soundToggle)
             {
@@ -55,7 +54,7 @@ public class Pauser : MonoBehaviour {
             {
                 audioSource.SetActive(false);
             }
-        }
+        
       
         Debug.Log("Mute");
     }
