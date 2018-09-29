@@ -6,9 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/Level.unity
-    guid: 69575e6f2904c4c7dafafe28c5ec7068
-  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
     path: Assets/Scenes/Practica 2.unity
     guid: 37db8c1d3c96b924ab3b1c78f9cc9e97
+  - enabled: 1
+    path: Assets/Scenes/PokemonGOV.unity
+    guid: f2afafc2b67ed994a9ccc04cb37bbd57
   m_configObjects: {}

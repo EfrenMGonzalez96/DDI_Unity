@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Exodia" size="0.200000 0.290323" />
+    <ImageTarget name="Maga_Oscura" size="0.200000 0.294643" />
+    <ImageTarget name="DragonBlanco" size="0.020000 0.029155" />
+    <ImageTarget name="steren" size="0.002000 0.001778" />
+    <ImageTarget name="sciencefiction-1537427753096-1067" size="2.000000 1.125000" />
+  </Tracking>
+</QCARConfig>
